@@ -1,0 +1,3 @@
+/home/abigail/Escritorio/Tarea1/Cliente/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/abigail/Escritorio/Tarea1/Cliente/cmake-build-debug/CMakeFiles/Cliente.dir
+/home/abigail/Escritorio/Tarea1/Cliente/cmake-build-debug/CMakeFiles/edit_cache.dir

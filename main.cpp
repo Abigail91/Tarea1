@@ -19,7 +19,7 @@ int main() {
     //Se le asigna un puerto al socket.
     sockaddr_in puerto{};
     puerto.sin_family =AF_INET;
-    puerto.sin_port = htons(8800);
+    puerto.sin_port = htons(54000);
     inet_pton(AF_INET,"0.0.0.0", &puerto.sin_addr);
 
     if (bind(server,(struct sockaddr *)&puerto,sizeof(puerto))==-1)
@@ -28,8 +28,8 @@ int main() {
         return -2;
 
     }
-
     //Se pone al socket en espera, "Escuchando"
+
     if(listen(server,SOMAXCONN)==-1)
     {
         cerr << "¡No se pudo recibir informaciòn!";
@@ -64,12 +64,13 @@ int main() {
 
     //Receiving
     char buf[4096];
+
     while(true){
         //Clean
         memset(buf,0,4096);
         //Wait for message
         int bytesRecv = recv(clientSocket,buf,4096,0);
-        cout << "Esperando conexiòn...";
+
         if(bytesRecv == -1){
             cerr << "Problema de conexiòn." << endl;
             break;
@@ -80,7 +81,7 @@ int main() {
         }
 
         cout << "Received: "<< string(buf,0,bytesRecv)<<endl;
-        send(clientSocket,buf,bytesRecv+1,0);
+        send(clientSocket,buf,bytesRecv,0);
     }
         close(clientSocket);
         return 0;
