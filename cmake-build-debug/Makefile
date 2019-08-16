@@ -123,6 +123,60 @@ Tarea1/fast:
 	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/build
 .PHONY : Tarea1/fast
 
+Lista_Enlazada.o: Lista_Enlazada.cpp.o
+
+.PHONY : Lista_Enlazada.o
+
+# target to build an object file
+Lista_Enlazada.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Lista_Enlazada.cpp.o
+.PHONY : Lista_Enlazada.cpp.o
+
+Lista_Enlazada.i: Lista_Enlazada.cpp.i
+
+.PHONY : Lista_Enlazada.i
+
+# target to preprocess a source file
+Lista_Enlazada.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Lista_Enlazada.cpp.i
+.PHONY : Lista_Enlazada.cpp.i
+
+Lista_Enlazada.s: Lista_Enlazada.cpp.s
+
+.PHONY : Lista_Enlazada.s
+
+# target to generate assembly for a file
+Lista_Enlazada.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Lista_Enlazada.cpp.s
+.PHONY : Lista_Enlazada.cpp.s
+
+Nodo.o: Nodo.cpp.o
+
+.PHONY : Nodo.o
+
+# target to build an object file
+Nodo.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Nodo.cpp.o
+.PHONY : Nodo.cpp.o
+
+Nodo.i: Nodo.cpp.i
+
+.PHONY : Nodo.i
+
+# target to preprocess a source file
+Nodo.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Nodo.cpp.i
+.PHONY : Nodo.cpp.i
+
+Nodo.s: Nodo.cpp.s
+
+.PHONY : Nodo.s
+
+# target to generate assembly for a file
+Nodo.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Nodo.cpp.s
+.PHONY : Nodo.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Tarea1"
 	@echo "... edit_cache"
+	@echo "... Lista_Enlazada.o"
+	@echo "... Lista_Enlazada.i"
+	@echo "... Lista_Enlazada.s"
+	@echo "... Nodo.o"
+	@echo "... Nodo.i"
+	@echo "... Nodo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

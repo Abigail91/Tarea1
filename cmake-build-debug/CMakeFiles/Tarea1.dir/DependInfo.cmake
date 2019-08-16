@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/abigail/Escritorio/Tarea1/Lista_Enlazada.cpp" "/home/abigail/Escritorio/Tarea1/cmake-build-debug/CMakeFiles/Tarea1.dir/Lista_Enlazada.cpp.o"
+  "/home/abigail/Escritorio/Tarea1/Nodo.cpp" "/home/abigail/Escritorio/Tarea1/cmake-build-debug/CMakeFiles/Tarea1.dir/Nodo.cpp.o"
   "/home/abigail/Escritorio/Tarea1/main.cpp" "/home/abigail/Escritorio/Tarea1/cmake-build-debug/CMakeFiles/Tarea1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

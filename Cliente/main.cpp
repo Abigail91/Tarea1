@@ -14,7 +14,7 @@ main() {
     if (cliente == -1){
         return 1;
     }
-    int puerto = 54000;
+    int puerto = 8800;
     string ipadress = "127.0.0.1";
 
     sockaddr_in direccion;

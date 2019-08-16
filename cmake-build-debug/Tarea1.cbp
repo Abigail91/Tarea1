@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/abigail/Escritorio/Tarea1/Lista_Enlazada.cpp">
+			<Option target="Tarea1"/>
+		</Unit>
+		<Unit filename="/home/abigail/Escritorio/Tarea1/Lista_Enlazada.h">
+			<Option target="Tarea1"/>
+		</Unit>
+		<Unit filename="/home/abigail/Escritorio/Tarea1/Nodo.cpp">
+			<Option target="Tarea1"/>
+		</Unit>
+		<Unit filename="/home/abigail/Escritorio/Tarea1/Nodo.h">
+			<Option target="Tarea1"/>
+		</Unit>
 		<Unit filename="/home/abigail/Escritorio/Tarea1/main.cpp">
 			<Option target="Tarea1"/>
 		</Unit>

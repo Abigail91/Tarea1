@@ -5,11 +5,17 @@
 #include <cstring>
 #include <netdb.h>
 #include <string>
+#include "Lista_Enlazada.h"
 
 using namespace std;
 
 
 int main() {
+    Lista_Enlazada lst;
+    lst.Insertar(3);
+    lst.Insertar(6);
+    lst.Insertar(7);
+
     //Se crear el socket
     int server = socket(AF_INET, SOCK_STREAM,0);
     if (server == -1){
@@ -19,7 +25,7 @@ int main() {
     //Se le asigna un puerto al socket.
     sockaddr_in puerto{};
     puerto.sin_family =AF_INET;
-    puerto.sin_port = htons(54000);
+    puerto.sin_port = htons(8800);
     inet_pton(AF_INET,"0.0.0.0", &puerto.sin_addr);
 
     if (bind(server,(struct sockaddr *)&puerto,sizeof(puerto))==-1)

@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/abigail/Escritorio/Tarea1/Lista_Enlazada.h
+Nodo.h
+/home/abigail/Escritorio/Tarea1/Nodo.h
+
+/home/abigail/Escritorio/Tarea1/Nodo.h
+clocale
+-
+
 /home/abigail/Escritorio/Tarea1/main.cpp
 iostream
 -
@@ -21,4 +29,6 @@ netdb.h
 -
 string
 -
+Lista_Enlazada.h
+/home/abigail/Escritorio/Tarea1/Lista_Enlazada.h
 
