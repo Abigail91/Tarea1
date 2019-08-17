@@ -11,10 +11,27 @@ using namespace std;
 
 
 int main() {
+    cout << "Hola \n";
     Lista_Enlazada lst;
     lst.Insertar(3);
     lst.Insertar(6);
     lst.Insertar(7);
+    lst.Insertar(10);
+    lst.print();
+    lst.edit_pos(0,80);
+    lst.edit_pos(1,50);
+    lst.edit_pos(2,40);
+    lst.edit_pos(4,10);
+    lst.get(3);
+    lst.get(1);
+    cout << "\n";
+
+    lst.print();
+    lst.eliminar();
+    cout << "\n";
+    lst.print();
+
+
 
     //Se crear el socket
     int server = socket(AF_INET, SOCK_STREAM,0);
