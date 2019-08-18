@@ -177,6 +177,60 @@ Nodo.cpp.s:
 	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Nodo.cpp.s
 .PHONY : Nodo.cpp.s
 
+Nodo_arbol.o: Nodo_arbol.cpp.o
+
+.PHONY : Nodo_arbol.o
+
+# target to build an object file
+Nodo_arbol.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Nodo_arbol.cpp.o
+.PHONY : Nodo_arbol.cpp.o
+
+Nodo_arbol.i: Nodo_arbol.cpp.i
+
+.PHONY : Nodo_arbol.i
+
+# target to preprocess a source file
+Nodo_arbol.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Nodo_arbol.cpp.i
+.PHONY : Nodo_arbol.cpp.i
+
+Nodo_arbol.s: Nodo_arbol.cpp.s
+
+.PHONY : Nodo_arbol.s
+
+# target to generate assembly for a file
+Nodo_arbol.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/Nodo_arbol.cpp.s
+.PHONY : Nodo_arbol.cpp.s
+
+arbol_binario.o: arbol_binario.cpp.o
+
+.PHONY : arbol_binario.o
+
+# target to build an object file
+arbol_binario.cpp.o:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/arbol_binario.cpp.o
+.PHONY : arbol_binario.cpp.o
+
+arbol_binario.i: arbol_binario.cpp.i
+
+.PHONY : arbol_binario.i
+
+# target to preprocess a source file
+arbol_binario.cpp.i:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/arbol_binario.cpp.i
+.PHONY : arbol_binario.cpp.i
+
+arbol_binario.s: arbol_binario.cpp.s
+
+.PHONY : arbol_binario.s
+
+# target to generate assembly for a file
+arbol_binario.cpp.s:
+	$(MAKE) -f CMakeFiles/Tarea1.dir/build.make CMakeFiles/Tarea1.dir/arbol_binario.cpp.s
+.PHONY : arbol_binario.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +273,12 @@ help:
 	@echo "... Nodo.o"
 	@echo "... Nodo.i"
 	@echo "... Nodo.s"
+	@echo "... Nodo_arbol.o"
+	@echo "... Nodo_arbol.i"
+	@echo "... Nodo_arbol.s"
+	@echo "... arbol_binario.o"
+	@echo "... arbol_binario.i"
+	@echo "... arbol_binario.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

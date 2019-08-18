@@ -8,7 +8,16 @@ CMakeFiles/Tarea1.dir/Lista_Enlazada.cpp.o: ../Nodo.h
 CMakeFiles/Tarea1.dir/Nodo.cpp.o: ../Nodo.cpp
 CMakeFiles/Tarea1.dir/Nodo.cpp.o: ../Nodo.h
 
+CMakeFiles/Tarea1.dir/Nodo_arbol.cpp.o: ../Nodo_arbol.cpp
+CMakeFiles/Tarea1.dir/Nodo_arbol.cpp.o: ../Nodo_arbol.h
+
+CMakeFiles/Tarea1.dir/arbol_binario.cpp.o: ../Nodo_arbol.h
+CMakeFiles/Tarea1.dir/arbol_binario.cpp.o: ../arbol_binario.cpp
+CMakeFiles/Tarea1.dir/arbol_binario.cpp.o: ../arbol_binario.h
+
 CMakeFiles/Tarea1.dir/main.cpp.o: ../Lista_Enlazada.h
 CMakeFiles/Tarea1.dir/main.cpp.o: ../Nodo.h
+CMakeFiles/Tarea1.dir/main.cpp.o: ../Nodo_arbol.h
+CMakeFiles/Tarea1.dir/main.cpp.o: ../arbol_binario.h
 CMakeFiles/Tarea1.dir/main.cpp.o: ../main.cpp
 

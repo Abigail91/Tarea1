@@ -96,6 +96,18 @@
 		<Unit filename="/home/abigail/Escritorio/Tarea1/Nodo.h">
 			<Option target="Tarea1"/>
 		</Unit>
+		<Unit filename="/home/abigail/Escritorio/Tarea1/Nodo_arbol.cpp">
+			<Option target="Tarea1"/>
+		</Unit>
+		<Unit filename="/home/abigail/Escritorio/Tarea1/Nodo_arbol.h">
+			<Option target="Tarea1"/>
+		</Unit>
+		<Unit filename="/home/abigail/Escritorio/Tarea1/arbol_binario.cpp">
+			<Option target="Tarea1"/>
+		</Unit>
+		<Unit filename="/home/abigail/Escritorio/Tarea1/arbol_binario.h">
+			<Option target="Tarea1"/>
+		</Unit>
 		<Unit filename="/home/abigail/Escritorio/Tarea1/main.cpp">
 			<Option target="Tarea1"/>
 		</Unit>

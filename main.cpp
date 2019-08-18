@@ -6,12 +6,12 @@
 #include <netdb.h>
 #include <string>
 #include "Lista_Enlazada.h"
+#include "arbol_binario.h"
 
 using namespace std;
 
 
 int main() {
-    cout << "Hola \n";
     Lista_Enlazada lst;
     lst.Insertar(3);
     lst.Insertar(6);
@@ -30,6 +30,20 @@ int main() {
     lst.eliminar();
     cout << "\n";
     lst.print();
+
+   int contador = 0;
+    arbol_binario arbol;
+    arbol.insertar(arbol.raiz,5);
+    arbol.insertar(arbol.raiz,3);
+    arbol.insertar(arbol.raiz,4);
+    arbol.insertar(arbol.raiz,2);
+    arbol.insertar(arbol.raiz,7);
+    arbol.insertar(arbol.raiz,6);
+    arbol.insertar(arbol.raiz,8);
+
+    arbol.print(arbol.raiz,contador);
+
+
 
 
 

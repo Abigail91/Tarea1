@@ -16,6 +16,16 @@ iostream
 clocale
 -
 
+/home/abigail/Escritorio/Tarea1/Nodo_arbol.h
+clocale
+-
+
+/home/abigail/Escritorio/Tarea1/arbol_binario.h
+iostream
+-
+Nodo_arbol.h
+/home/abigail/Escritorio/Tarea1/Nodo_arbol.h
+
 /home/abigail/Escritorio/Tarea1/main.cpp
 iostream
 -
@@ -33,4 +43,6 @@ string
 -
 Lista_Enlazada.h
 /home/abigail/Escritorio/Tarea1/Lista_Enlazada.h
+arbol_binario.h
+/home/abigail/Escritorio/Tarea1/arbol_binario.h
 
