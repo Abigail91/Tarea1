@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/abigail/Escritorio/Tarea1/Cliente/cmake-build-debug -I/home/abigail/Escritorio/Tarea1/Cliente -I/home/abigail/Escritorio/Tarea1/Cliente/cmake-build-debug/Cliente_autogen/include 
 

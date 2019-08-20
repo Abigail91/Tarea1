@@ -6,10 +6,10 @@
 #include <netdb.h>
 #include <string>
 
+
 using namespace std;
 
-int
-main() {
+int main() {
     int cliente = socket(AF_INET, SOCK_STREAM,0);
     if (cliente == -1){
         return 1;

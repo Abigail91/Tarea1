@@ -11,13 +11,15 @@
 class Nodo_arbol {
     Nodo_arbol*hijo_derecho;
     Nodo_arbol*hijo_izquierdo;
+    Nodo_arbol*padre;
 public:
 
-    Nodo_arbol(int v, Nodo_arbol*der=NULL,Nodo_arbol*iz=NULL){
+    Nodo_arbol(int v, Nodo_arbol*der=NULL,Nodo_arbol*iz=NULL,Nodo_arbol*padre=NULL){
 
         this->valor = v;
         this->hijo_derecho = der;
         this->hijo_izquierdo = iz;
+        this->padre =padre;
     }
     friend class arbol_binario;
 

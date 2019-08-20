@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Cliente.dir/main.cpp.o  -o Cliente 
+/usr/bin/c++  -g   CMakeFiles/Cliente.dir/Cliente_autogen/mocs_compilation.cpp.o CMakeFiles/Cliente.dir/main.cpp.o  -o Cliente 

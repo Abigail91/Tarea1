@@ -123,6 +123,46 @@ Cliente/fast:
 	$(MAKE) -f CMakeFiles/Cliente.dir/build.make CMakeFiles/Cliente.dir/build
 .PHONY : Cliente/fast
 
+#=============================================================================
+# Target rules for targets named Cliente_autogen
+
+# Build rule for target.
+Cliente_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cliente_autogen
+.PHONY : Cliente_autogen
+
+# fast build rule for target.
+Cliente_autogen/fast:
+	$(MAKE) -f CMakeFiles/Cliente_autogen.dir/build.make CMakeFiles/Cliente_autogen.dir/build
+.PHONY : Cliente_autogen/fast
+
+Cliente_autogen/mocs_compilation.o: Cliente_autogen/mocs_compilation.cpp.o
+
+.PHONY : Cliente_autogen/mocs_compilation.o
+
+# target to build an object file
+Cliente_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/Cliente.dir/build.make CMakeFiles/Cliente.dir/Cliente_autogen/mocs_compilation.cpp.o
+.PHONY : Cliente_autogen/mocs_compilation.cpp.o
+
+Cliente_autogen/mocs_compilation.i: Cliente_autogen/mocs_compilation.cpp.i
+
+.PHONY : Cliente_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+Cliente_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/Cliente.dir/build.make CMakeFiles/Cliente.dir/Cliente_autogen/mocs_compilation.cpp.i
+.PHONY : Cliente_autogen/mocs_compilation.cpp.i
+
+Cliente_autogen/mocs_compilation.s: Cliente_autogen/mocs_compilation.cpp.s
+
+.PHONY : Cliente_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+Cliente_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/Cliente.dir/build.make CMakeFiles/Cliente.dir/Cliente_autogen/mocs_compilation.cpp.s
+.PHONY : Cliente_autogen/mocs_compilation.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +199,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Cliente"
 	@echo "... edit_cache"
+	@echo "... Cliente_autogen"
+	@echo "... Cliente_autogen/mocs_compilation.o"
+	@echo "... Cliente_autogen/mocs_compilation.i"
+	@echo "... Cliente_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -118,7 +118,10 @@ int main() {
         }
 
         cout << "Received: "<< string(buf,0,bytesRecv)<<endl;
-        send(clientSocket,buf,bytesRecv,0);
+        for(int i=0;i<10;i++){
+            send(clientSocket,buf,bytesRecv,0);
+        }
+
     }
         close(clientSocket);
         return 0;

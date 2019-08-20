@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/abigail/Escritorio/Tarea1/Cliente/cmake-build-debug/Cliente_autogen/mocs_compilation.cpp
+
 /home/abigail/Escritorio/Tarea1/Cliente/main.cpp
 iostream
 -

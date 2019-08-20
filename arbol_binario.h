@@ -18,7 +18,7 @@ public:
     bool vacio(){
         return (this->raiz == NULL);
     }
-    void insertar(Nodo_arbol*&arbol,int valor){
+    void insertar(Nodo_arbol*&arbol,int valor ){
         if(arbol == NULL){
             Nodo_arbol*nuevo = new Nodo_arbol(valor);
             arbol = nuevo;
@@ -48,6 +48,7 @@ public:
 
         }
     }
+
 #endif //TAREA1_ARBOL_BINARIO_H
 
 
